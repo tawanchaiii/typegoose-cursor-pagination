@@ -1,12 +1,12 @@
 import * as base64url from "base64-url";
-import { EJSON } from "bson";
+import { BSON } from "bson"; // Changed from `EJSON`
 
 /**
  * Encode a BSON object to a URL-safe string format
  * @param obj The BSON object to encode
  */
 export function encode(obj: any): string {
-    return base64url.encode(EJSON.stringify(obj));
+  return base64url.encode(BSON.EJSON.stringify(obj)); // Use BSON.EJSON
 }
 
 /**
@@ -14,5 +14,5 @@ export function encode(obj: any): string {
  * @param str The URL-safe string to decode
  */
 export function decode(str: string): any {
-    return EJSON.parse(base64url.decode(str));
+  return BSON.EJSON.parse(base64url.decode(str)); // Use BSON.EJSON
 }

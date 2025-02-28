@@ -29,10 +29,10 @@
     },
     "homepage": "https://github.com/ExtraBB/typegoose-cursor-pagination#readme",
     "dependencies": {
-        "@typegoose/typegoose": "^11.2.0",
+        "@typegoose/typegoose": "^12.6.0",
         "base64-url": "^2.3.3",
-        "bson": "^5.3.0",
-        "mongoose": "^7.2.4",
+        "bson": "^6.10.3",
+        "mongoose": "^8.5.3",
         "object-path": "^0.11.8"
     },
     "devDependencies": {
@@ -46,7 +46,7 @@
         "eslint": "^8.39.0",
         "eslint-config-prettier": "^8.8.0",
         "mocha": "^10.2.0",
-        "mongodb-memory-server": "^8.12.2",
+        "mongodb-memory-server": "^10.1.4",
         "ts-node": "^10.9.1",
         "typescript": "^5.0.4"
     },
