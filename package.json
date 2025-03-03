@@ -30,13 +30,12 @@
     "homepage": "https://github.com/ExtraBB/typegoose-cursor-pagination#readme",
     "dependencies": {
         "@typegoose/typegoose": "^12.6.0",
-        "base64-url": "^2.3.3",
+        "base64url": "^3.0.1",
         "bson": "^6.10.3",
         "mongoose": "^8.5.3",
         "object-path": "^0.11.8"
     },
     "devDependencies": {
-        "@types/base64-url": "^2.2.0",
         "@types/chai": "^4.3.5",
         "@types/mocha": "^10.0.1",
         "@types/node": "^18.16.3",

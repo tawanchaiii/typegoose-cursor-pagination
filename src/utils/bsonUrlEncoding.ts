@@ -1,4 +1,4 @@
-import * as base64url from "base64-url";
+import base64url from "base64url";
 import { BSON } from "bson"; // Changed from `EJSON`
 
 /**
